@@ -1,0 +1,161 @@
+.widget {
+	background: white !important;
+	padding:20px;
+	
+	&-title {
+		font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+		line-height: 1.3;
+		font-weight: 700;
+		font-size: .8725rem;
+		color: $grey;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #eee;
+	}
+	
+	&-content {
+		.widget-post {	
+				border-top: 1px solid #ebebeb;
+				margin-top:15px;
+				padding-top: 15px;
+				clear: both;
+				height: 80px;
+				
+				&:first-child {
+					margin-top: 0;
+					border:0;
+				}
+				
+				.widget-image {
+					float:left;
+				border-radius(50%);
+				overflow:hidden;
+				margin-right:15px;
+				}
+		}
+	}
+}
+
+	
+.search {
+	&-input {
+		float:left;
+		width:60%;
+		font-size:13px;
+		line-height:30px;
+		color:#fff;
+		text-shadow: none;
+		outline:none;
+		border: 0;
+		padding: 0 10px;
+		background: $grey;
+		overflow:hidden;
+	}
+	&-button {
+		cursor: pointer;
+		display:inline-block;
+		background-color: $blue;
+		padding:10px 0 0 0;
+		font-weight:600;
+		color: white;
+		height:20px;
+		width:30%;
+		text-transform: uppercase;
+		font-size:11px;
+		text-align:center;
+		position:relative;
+	}
+}
+	
+
+.about {
+	.about-logo {
+		text-align:center;
+	}
+	.about-description {
+		font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+		font-size: .875rem;
+		margin-top: 15px;
+		color: #555;
+		line-height: 1.6;
+	}
+}
+
+.follow {
+}
+
+.popular {
+	.widget-content {
+		.widget-post {
+				.widget-data {
+					.popular-data-title {
+						cursor: pointer;
+						color: #444;
+						font-weight:bold;
+						font-size:.825rem;
+						
+						&:hover {
+							color: $blue;
+						}
+					}
+					
+					.popular-data-date {
+					font-size: .6875rem;
+					color: #aaa;
+					text-transform: uppercase;
+				}
+				}
+			}
+	}
+}
+
+.latest {
+	.widget-content {
+		.widget-data {
+			.latest-data-title {
+				cursor: pointer;
+				color: #444;
+				font-weight:bold;
+				font-size:.825rem;
+				
+				&:hover {
+					color: $blue;
+				}
+			}
+			
+			.latest-data-date {
+			font-size: .6875rem;
+			color: #aaa;
+			text-transform: uppercase;
+			}
+		}
+		}
+}
+
+.topics {
+}
+
+.authors {
+}
+
+.comments {
+	.widget-content {		
+		.widget-data {
+			.comments-data-title {
+				color: #444;
+				font-size: .825rem; 
+			}
+			
+			.comments-data-post {
+				font-size: .825rem;
+				color: #444;
+				font-weight: bold;
+				cursor: pointer;
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+	}
+}
