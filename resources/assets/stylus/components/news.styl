@@ -2,7 +2,7 @@
 	background-color: white !important;
 	
 
-	.news-entry-header {
+	&-entry-header {
 		padding: 5% 7.5% 0;
 		.news-logo {
 			float:left;
@@ -54,7 +54,7 @@
 	}
 
 
-	.news-image {
+	&-image {
 		position: relative;
 		margin-top: 5%;
 		
@@ -63,14 +63,14 @@
 		}
 	}
 
-	.news-description {
+	&-description {
 		padding: 5% 7.5%;
 		color:#555;
 		font-size: 1.1rem;
 	}
 
 
-	.news-bottom {
+	&-bottom {
 		float: right;
 		
 		& > div {
@@ -80,23 +80,23 @@
 		}
 
 		.news-share {
-			background-color: #343434;
+			background-color: $grey;
 			text-align:center;
 			padding: 10px 13px;
 			
 			&:hover {
-				background-color: #3498db;
+				background-color: $blue;
 			}
 		}
 
 		.news-readmore {
 			font-weight: 700;
-			background-color: #3498db;
+			background-color: $blue;
 			padding: 10px 20px;
 			text-transform: uppercase;
 			
 			&:hover {
-				background-color: #343434;
+				background-color: $grey;
 			}
 		}
 	}
