@@ -21,12 +21,13 @@
 				</div>
 				<div class="news-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita no sea takimata sanctus est Lorem ipsum dolor sit amet. Learn more about MH Cicero WordPress Theme.</div>
 			</div>
-			<div class="news-bottom">
-				<div class="news-fb news-share">FB</div>
-				<div class="news-twitter news-share">TW</div>
-				<div class="news-google news-share">GL</div>
-				<div class="news-readmore">Read More</div>
-			</div>
+			<ul class="news-bottom">
+				<li class="news-fb news-share">FB</li>
+				<li class="news-twitter news-share">TW</li>
+				<li class="news-google news-share">GL</li>
+				<li class="news-readmore">Read More</li>
+			</ul>
+			<div class="spacer"></div>
 		</div>
 		<div class="news">
 			<div class="news-entry-header">
@@ -49,12 +50,13 @@
 				</div>
 				<div class="news-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita no sea takimata sanctus est Lorem ipsum dolor sit amet. Learn more about MH Cicero WordPress Theme.</div>
 			</div>
-			<div class="news-bottom">
-				<div class="news-fb news-share">FB</div>
-				<div class="news-twitter news-share">TW</div>
-				<div class="news-google news-share">GL</div>
-				<div class="news-readmore">Read More</div>
-			</div>
+			<ul class="news-bottom">
+				<li class="news-fb news-share">FB</li>
+				<li class="news-twitter news-share">TW</li>
+				<li class="news-google news-share">GL</li>
+				<li class="news-readmore">Read More</li>
+			</ul>
+			<div class="spacer"></div>
 		</div>
 		<div class="news">
 			<div class="news-entry-header">
@@ -77,12 +79,13 @@
 				</div>
 				<div class="news-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita no sea takimata sanctus est Lorem ipsum dolor sit amet. Learn more about MH Cicero WordPress Theme.</div>
 			</div>
-			<div class="news-bottom">
-				<div class="news-fb news-share">FB</div>
-				<div class="news-twitter news-share">TW</div>
-				<div class="news-google news-share">GL</div>
-				<div class="news-readmore">Read More</div>
-			</div>
+			<ul class="news-bottom">
+				<li class="news-fb news-share">FB</li>
+				<li class="news-twitter news-share">TW</li>
+				<li class="news-google news-share">GL</li>
+				<li class="news-readmore">Read More</li>
+			</ul>
+			<div class="spacer"></div>
 		</div>
 		<div class="news">
 			<div class="news-entry-header">
@@ -105,12 +108,13 @@
 				</div>
 				<div class="news-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita no sea takimata sanctus est Lorem ipsum dolor sit amet. Learn more about MH Cicero WordPress Theme.</div>
 			</div>
-			<div class="news-bottom">
-				<div class="news-fb news-share">FB</div>
-				<div class="news-twitter news-share">TW</div>
-				<div class="news-google news-share">GL</div>
-				<div class="news-readmore">Read More</div>
-			</div>
+			<ul class="news-bottom">
+				<li class="news-fb news-share">FB</li>
+				<li class="news-twitter news-share">TW</li>
+				<li class="news-google news-share">GL</li>
+				<li class="news-readmore">Read More</li>
+			</ul>
+			<div class="spacer"></div>
 		</div>
 		<div class="news">
 			<div class="news-entry-header">
@@ -133,12 +137,13 @@
 				</div>
 				<div class="news-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita no sea takimata sanctus est Lorem ipsum dolor sit amet. Learn more about MH Cicero WordPress Theme.</div>
 			</div>
-			<div class="news-bottom">
-				<div class="news-fb news-share">FB</div>
-				<div class="news-twitter news-share">TW</div>
-				<div class="news-google news-share">GL</div>
-				<div class="news-readmore">Read More</div>
-			</div>
+			<ul class="news-bottom">
+				<li class="news-fb news-share">FB</li>
+				<li class="news-twitter news-share">TW</li>
+				<li class="news-google news-share">GL</li>
+				<li class="news-readmore">Read More</li>
+			</ul>
+			<div class="spacer"></div>
 		</div>
 
 		<div class="pagination">
