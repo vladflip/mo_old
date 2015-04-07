@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section("head")
+	<link rel="stylesheet" href="css/owl.carousel.css">
+@stop
+
 @section("body")
 
 	@include("layouts.inc.home.slider")
@@ -9,5 +13,5 @@
 @stop
 
 @section("footer")
-	<script src='../resources/assets/coffee/home/slider/slider.js'></script>
+	<script src='js/home.js'></script>
 @stop
