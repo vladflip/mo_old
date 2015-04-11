@@ -1,7 +1,7 @@
 <div class="slider owl-carousel">
 	<div class="slider-post">
 		<div class="slider-post-image">
-			<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Dog-610x343.jpg" alt="">
+			<img src="http://images.psxextreme.com/wallpapers/ps3/horizontal_reflex_848.jpg" alt="">
 		</div>
 		<div class="slider-post-line"></div>
 		<div class="slider-post-article">
