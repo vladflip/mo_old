@@ -1,4 +1,58 @@
-.article {
-	height:2300px;
-	background-color:#ccc;
+.content {
+	.default-outer{
+		padding: 40px 50px;
+		background-color: #fff !important;
+	
+		&> div {
+		}
+		
+		div {
+			margin-top:40px;
+			font-size: 18px;
+			font-weight: 100;
+			color: $grey;
+		}
+		
+		& > div:first-child {
+			margin-top: 0;
+		}
+		.main-title {
+			font-size: 24px;
+			color: #555;
+			font-weight: bold;
+			padding-bottom: 1.25rem;
+			border-bottom :1px solid #eee;
+		}
+		.sub-article {
+			.sub-title {
+				font-size: 22px;
+				font-weight: bold;
+				color: #555;
+			}
+			.sub-image img {
+				width: 100%;
+			}
+		}
+		.left-aligned {
+			.sub-description {
+				text-align: left;
+			}
+		}
+		.right-aligned {
+			.sub-description {
+				text-align: right;
+			}
+		}
+		.center-aligned {
+			.sub-description {
+				text-align: center;
+			}
+		}
+		.justify-aligned {
+			.sub-description {
+				text-align: justify;
+			}
+		}
+
+	}
 }

@@ -6,7 +6,3 @@
 	
 @stop
 
-
-@section("footer")
-	<script src='js/footer.js'></script>
-@stop

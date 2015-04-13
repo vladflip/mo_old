@@ -1,18 +1,51 @@
-.contact {
-	height:75px;
-	width:200px;
-	background-color:#ccc;
-	margin-bottom:35px;
+.content {
+	.contact-outer {
+		background-color : white !important;
+		padding: 40px 50px;
+	}
+	.contact {
+		font-size: 24px;
+		padding-bottom: 1.25rem;
+		font-weight: bold;
+		color: #555;
+		border-bottom: 1px solid #eee;
+	}
+	
+	.inputs {
+		& > div {
+			margin-top: 25px;
+		}
+		& div {
+			font-size: 16px;
+			color: $grey;
+			font-weight: 400;
+		}
+		
+		& .input {
+			width: 50%;
+			border: 0;
+			background-color: #eee;
+			padding: 10px 10px;
+		}
+		
+		& textarea {
+			background-color: #eee;
+			border: 0;
+			resize: none;
+			width: 95%;
+			height: 190px;
+		}
+	}
+	.send-button {
+		margin-top: 25px;
+		cursor: pointer;
+		background-color: $blue;
+		padding: 10px 17px;
+		color: white;
+		font-size: 14px;
+		border: 0;
+	}
 }
 
-.inputs {
-	margin-bottom:35px;
-	height: 500px;
-	background-color:#ccc;
-}
 
-.send {
-	height: 35px;
-	width:60px;
-	background-color:#ccc;
-}
+

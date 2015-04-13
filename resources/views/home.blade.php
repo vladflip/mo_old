@@ -2,6 +2,7 @@
 
 @section("head")
 	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 @stop
 
 @section("body")
