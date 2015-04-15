@@ -1,4 +1,35 @@
 .full-width {
-	height:1000px;
-	background-color:#ccc !important;
+	background-color: #fff !important;
+	padding: 30px 40px;
+	 
+	div {
+	 	font-size: 18px;
+	 	color: $grey;
+	 	font-weight: 100;
+		margin-top: 40px;
+	}
+	
+	.main-title {
+		font-size: 24px;
+		font-weight: bold;
+		color :#555;
+		padding-bottom: 1.25rem;
+		border-bottom: 1px solid #eee;
+	}
+	
+	.sub-article {
+		.sub-title {
+			font-size: 22px;
+			font-weight: bold;
+			color: #555;
+		}
+		.sub-image img{
+			width: 100%;
+		}
+	}
+	
+	
+	&> div:first-child {
+		margin-top: 0;
+	}
 }

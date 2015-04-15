@@ -1,6 +1,6 @@
 .news {
 	background-color: white !important;
-	
+	margin-bottom:35px;
 
 	&-entry-header {
 		padding: 5% 7.5% 0;
@@ -16,11 +16,20 @@
 
 		.news-name {
 			font-size: 1.75rem;
+			cursor:pointer;
 			color: rgb(68, 68, 68);
 			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 			font-weight: bold;
 			text-transform: uppercase;
 			line-weight:1.3;
+			
+			a {
+				text-decoration: none;
+				color: $grey;
+				&:hover {
+					color: $blue;
+				}
+			}
 		}
 		
 
@@ -71,13 +80,23 @@
 
 
 	&-bottom {
+		list-style:none;
+		margin:0;
+		padding: 0;
 		float: right;
 		
-		& > div {
-			float: left;
+		
+		& > li {
+			display:inline-block;
+			margin-left:-4px;
 			cursor: pointer;
 			color: white;
+			&::after {
+				clear:both;
+			}
+			padding: 10px 0;
 		}
+	
 
 		.news-share {
 			background-color: $grey;
@@ -88,8 +107,9 @@
 				background-color: $blue;
 			}
 		}
-
 		.news-readmore {
+			text-decoration: none;
+			color: white;
 			font-weight: 700;
 			background-color: $blue;
 			padding: 10px 20px;
@@ -99,6 +119,10 @@
 				background-color: $grey;
 			}
 		}
+	}
+	
+	.spacer {
+		clear:both;
 	}
 
 }

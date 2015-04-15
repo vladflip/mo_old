@@ -1,0 +1,282 @@
+.spacer {
+	clear: both;
+}
+.left {
+	.new {
+		background-color: #fff;
+		&-header {
+			padding: 5% 7.5% 0;
+			
+			.new-logo, .new-title{
+				float: left;
+			}
+			
+			.new-title {
+				margin-left: 20px;
+				font-size: 1.75rem;
+				font-weight: bold;
+				color: $grey;
+			}
+			
+			.new-data {
+				margin-bottom: 25px;
+				border-top: 1px solid #eee;
+				border-bottom: 1px solid #eee;
+				clear: both;
+				
+
+				& > div{
+					font-size: 14px;
+					padding: 5px 0;
+					color: #aaa;
+					display : inline-block;
+					margin-right: 10px;
+					
+					i {
+						margin-right: 5px;
+					}
+				}
+				.new-features {
+					.features {
+						color: $grey;
+					}
+				}
+			}
+		}
+		
+		&-body {
+			.new-image {
+				img {
+					width: 100%;
+				}
+			}
+			.new-description {
+				padding: 5% 7.5%;
+				color: $grey;
+				font-size: 18px;
+				
+				& div {
+					margin-top: 25px;
+				}
+				
+				.new-sub {
+					.sub-title {
+						font-size: 1.5rem;
+						font-weight: bold;
+						color: #555;
+					}
+					.sub-image {
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+		
+		&-footer {
+			margin-top: 25px;
+			
+			.nav {
+				border-top: 1px solid #eee;
+				padding: 5% 7.5% 9%;
+				.prev-outer {
+					float: left;
+					.prev {
+						font-size: 18px;
+						color: $grey;
+						cursor: pointer;
+						
+						&:hover {
+							color: $blue;
+						}
+					}
+				}
+				.next-outer {
+					float: right;
+					.next {
+						font-size: 18px;
+						color: $grey;
+						cursor: pointer;
+						
+						&:hover {
+							color: $blue;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.about {
+		margin-top: 40px;
+		padding: 5% 7.5%;
+		background-color: white;
+		& > div {
+			display: inline-block;
+		}
+		
+		.about-right{ 
+			width: 70%;
+			margin-left: 25px;
+			.about-title{
+				font-size: 1.5rem;
+				color: #555;
+				font-weight: bold;
+			}
+			.about-description {
+				font-size: 14px;
+				color: $grey;
+			}
+		}
+	}
+	
+	.related {
+		margin-top: 25px;
+		background-color: white;
+		padding: 5% 7.5%;
+		
+		&-title {
+			font-size: 1.5rem;
+			color: #555;
+			font-weight: bold;
+			text-align: center;
+			padding-bottom: 1.25rem;
+			border-bottom: 1px solid #eee;
+		}
+		
+		&-articles {
+			.article {
+				clear: both;
+				position: relative;
+				margin-top: 25px;
+				& > div {
+					display: inline-block;
+				}
+				
+				&-logo {
+					img {
+						border-radius(90px)
+					}
+				}
+				&-name {
+					position: absolute;
+					top:0;
+					margin-left: 25px;
+					font-size: 18px;
+					color: $grey;
+					cursor: pointer;
+					
+					&:hover {
+						color: $blue;
+					}
+				}
+			}
+		}
+	}
+	
+	.comments-outer {
+		padding: 5% 7.5%;
+		background-color: white;
+		margin-top: 25px;
+		
+		.comments-title {
+			font-size: 1.5rem;
+			font-weight: bold;
+			text-align: center;
+			color: #555;
+			padding-bottom: 1.25rem;
+			border-bottom: 1px solid #eee;
+		}
+		
+		.comments {
+			margin-top: 25px;
+			
+			.comment {
+				margin-bottom: 25px;
+				&>div {
+					display: inline-block;
+				}
+				
+				&-author {
+					img {
+						border-radius(90px)
+					}
+				}
+
+				&-right {
+					width: 80%;
+					margin-left: 25px;
+					
+					&-data {
+						&>div {
+							display: inline-block;
+							cursor: pointer;
+						}
+						
+						.comment-name{
+							color: $blue;
+							font-weight: bold;
+							
+							&:hover {
+								color: $grey;
+							}
+						}
+						
+						.comment-date{
+							font-weight: bold;
+							color: $grey;
+							
+							&:hover {
+								color: $blue;
+							}
+						}
+					}
+					
+					&-reply {
+						font-weight: bold;
+						color: $grey;
+						margin-top: 15px;
+						cursor: pointer;
+					}
+				}
+			}
+			
+			.own-comment{
+				&-tip {
+					color: $grey;
+					font-size: 1.08rem;
+					margin-bottom: 15px;
+				}
+				
+				input {
+					width: 50%;
+					border: 0;
+					padding: .625rem;
+					background-color: #eee;
+					margin-bottom: 25px;
+				}
+				
+				
+				
+				textarea {
+					width: 100%;
+					resize: none;
+					background-color: #eee;
+					padding: .625rem;
+					border: 0;
+				}
+				
+				.send {
+					color: white;
+					background-color: $blue;
+					padding: 10px 20px;
+					cursor: pointer;
+					border: 0;
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
