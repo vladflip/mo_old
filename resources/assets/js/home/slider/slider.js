@@ -5,10 +5,10 @@ require("owl");
 
 $ = require('jquery');
 
-jQuery(function() {
+$(function() {
   var slider;
   return (slider = function() {
-    return jQuery(".owl-carousel").owlCarousel({
+    return $(".owl-carousel").owlCarousel({
       items: 1,
       nav: true,
       navText: ["<", ">"],
