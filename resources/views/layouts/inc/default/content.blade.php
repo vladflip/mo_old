@@ -58,101 +58,37 @@
 		<div class="popular widget">
 			<div class="widget-title">POPULAR POSTS</div>
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+
+				@for($i=0; $i<5; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
+							<div class="popular-data-date">MAY 20, 2015</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 		<div class="latest widget">
 			<div class="widget-title">LATEST POSTS</div>
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+
+				@for($i=0; $i<5; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
+							<div class="latest-data-date">MAY 20, 2015</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 		{{-- <div class="topics widget">
@@ -165,42 +101,19 @@
 			<div class="widget-title">RECENT COMMENTS</div>
 
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+				
+				@for($i=0; $i<4; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="comments-data-title">Brooklyn on</div>
+							<div class="comments-data-post">TRANSLATION READY</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 	</div>

@@ -69,117 +69,49 @@
 		<div class="related">
 			<div class="related-title">RELATED ARTICLES</div>
 			<div class="related-articles">
-				<div class="article">
-					<div class="article-logo">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
+
+				@for($i=0; $i<4; $i++)
+					<div class="article">
+						<div class="article-logo">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
+						</div>
+						<div class="article-name">Social Functionality</div>
 					</div>
-					<div class="article-name">Social Functionality</div>
-				</div>
-				<div class="article">
-					<div class="article-logo">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
-					</div>
-					<div class="article-name">Social Functionality</div>
-				</div>
-				<div class="article">
-					<div class="article-logo">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
-					</div>
-					<div class="article-name">Social Functionality</div>
-				</div>
-				<div class="article">
-					<div class="article-logo">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
-					</div>
-					<div class="article-name">Social Functionality</div>
-				</div>
-				<div class="article">
-					<div class="article-logo">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Grumpy_Cat-70x70.jpg" alt="">
-					</div>
-					<div class="article-name">Social Functionality</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 		<div class="comments-outer">
 			<div class="comments-title">3 Comments</div>
 			<div class="comments">
-				<div class="comment">
-					<div class="comment-author">
-						<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70" alt="">
-					</div>
-					<div class="comment-right">
-						<div class="comment-right-data">
-							<div class="comment-name">Harper</div>
-							<div class="comment-date">December 22, 2015 at 5:34 pm</div>
+				@for($i=0; $i<4; $i++)
+					<div class="comment">
+						<div class="comment-author">
+							<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70" alt="">
 						</div>
-						<div class="comment-right-description">
-							At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-						</div>
-						<div class="comment-right-reply">
-							REPLY
-						</div>
-					</div>
-				</div>
-				<div class="comment">
-					<div class="comment-author">
-						<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70" alt="">
-					</div>
-					<div class="comment-right">
-						<div class="comment-right-data">
-							<div class="comment-name">Harper</div>
-							<div class="comment-date">December 22, 2015 at 5:34 pm</div>
-						</div>
-						<div class="comment-right-description">
-							At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-						</div>
-						<div class="comment-right-reply">
-							REPLY
+						<div class="comment-right">
+							<div class="comment-right-data">
+								<div class="comment-name">Harper</div>
+								<div class="comment-date">December 22, 2015 at 5:34 pm</div>
+							</div>
+							<div class="comment-right-description">
+								At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+							</div>
+							<div class="comment-right-reply">
+								REPLY
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="comment">
-					<div class="comment-author">
-						<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70" alt="">
+					<div class="own-comment">
+						<div class="own-comment-tip">Your email address will not be published.</div>
+						<input type="text" class="name" placeholder="Enter Name">
+						<input type="text" class="email" placeholder = "Enter Email">
+						<input type="text" class="url" placeholder = "Enter URL">
+						<textarea name="" id="" cols="30" rows="10" class="comment" placeholder ="Leave Message Here"></textarea>
+						<button class="send">Send Comment</button>
 					</div>
-					<div class="comment-right">
-						<div class="comment-right-data">
-							<div class="comment-name">Harper</div>
-							<div class="comment-date">December 22, 2015 at 5:34 pm</div>
-						</div>
-						<div class="comment-right-description">
-							At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-						</div>
-						<div class="comment-right-reply">
-							REPLY
-						</div>
-					</div>
-				</div>
-				<div class="comment">
-					<div class="comment-author">
-						<img src="http://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=70" alt="">
-					</div>
-					<div class="comment-right">
-						<div class="comment-right-data">
-							<div class="comment-name">Harper</div>
-							<div class="comment-date">December 22, 2015 at 5:34 pm</div>
-						</div>
-						<div class="comment-right-description">
-							At vero eos et accusam et justo duo dolores et ea rebum. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-						</div>
-						<div class="comment-right-reply">
-							REPLY
-						</div>
-					</div>
-				</div>
-				<div class="own-comment">
-					<div class="own-comment-tip">Your email address will not be published.</div>
-					<input type="text" class="name" placeholder="Enter Name">
-					<input type="text" class="email" placeholder = "Enter Email">
-					<input type="text" class="url" placeholder = "Enter URL">
-					<textarea name="" id="" cols="30" rows="10" class="comment" placeholder ="Leave Message Here"></textarea>
-					<button class="send">Send Comment</button>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 	</div>
@@ -203,101 +135,37 @@
 		<div class="popular widget">
 			<div class="widget-title">POPULAR POSTS</div>
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+
+				@for($i=0; $i<5; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
+							<div class="popular-data-date">MAY 20, 2015</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="popular-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="popular-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 		<div class="latest widget">
 			<div class="widget-title">LATEST POSTS</div>
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+
+				@for($i=0; $i<5; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
+							<div class="latest-data-date">MAY 20, 2015</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="latest-data-title">MULTI-LEVEL THREADED COMMENTS</div>
-						<div class="latest-data-date">MAY 20, 2015</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 		{{-- <div class="topics widget">
@@ -310,42 +178,19 @@
 			<div class="widget-title">RECENT COMMENTS</div>
 
 			<div class="widget-content">
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+
+				@for($i=0; $i<4; $i++)
+					<div class="widget-post">
+						<div class="widget-image">
+							<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
+						</div>
+						<div class="widget-data">
+							<div class="comments-data-title">Brooklyn on</div>
+							<div class="comments-data-post">TRANSLATION READY</div>
+						</div>
 					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
-				<div class="widget-post">
-					<div class="widget-image">
-						<img src="http://demo.mhthemes.com/cicero/wp-content/uploads/sites/3/2014/12/Band-70x70.jpg" alt="">
-					</div>
-					<div class="widget-data">
-						<div class="comments-data-title">Brooklyn on</div>
-						<div class="comments-data-post">TRANSLATION READY</div>
-					</div>
-				</div>
+				@endfor
+
 			</div>
 		</div>
 	</div>

@@ -14,5 +14,5 @@
 @stop
 
 @section("footer")
-	<script src='js/home.js'></script>
+	<script src='js/script.js'></script>
 @stop
