@@ -7,15 +7,30 @@
 		&-header {
 			padding: 5% 7.5% 0;
 			
-			.new-logo, .new-title{
+			.new-logo {
 				float: left;
 			}
 			
 			.new-title {
-				margin-left: 20px;
-				font-size: 1.75rem;
+				height: 50px;
+				display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+				display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+				display: -ms-flexbox;      /* TWEENER - IE 10 */
+				display: flex; 
+			    justify-content: center;
+			    align-items: center;
+				font-size: 1.8rem;
 				font-weight: bold;
 				color: $grey;
+
+				@media (max-width: 700px) {
+					font-size: 1.1rem;
+					height: 70px;
+				}
+				
+				@media (min-width:700px) and (max-width:1100px) {
+					font-size: 1.2rem;
+				}
 			}
 			
 			.new-data {
@@ -26,11 +41,11 @@
 				
 
 				& > div{
-					font-size: 14px;
+					font-size: .8rem;
 					padding: 5px 0;
 					color: #aaa;
 					display : inline-block;
-					margin-right: 10px;
+					margin-right: 7px;
 					
 					i {
 						margin-right: 5px;
