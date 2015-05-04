@@ -8,7 +8,7 @@
 		float: left;
 		margin-left: 25px;
 		color:white;
-		font-size: 3.2rem;
+		font-size: 3.3rem;
 		text-align:center;
 		
 		@media (max-width:700px) {
@@ -30,14 +30,16 @@
 		padding: 0;
 		
 		.header-item {
-			float:left;
-			font-size:13px;
-			font-weight:700;
-			cursor: pointer;
-			padding: 27px 22px;
-			color:white;
 			position: relative;
-			text-transform: uppercase;
+			float:left;
+			&-name {
+				font-size:16px;
+				font-weight:700;
+				cursor: pointer;
+				padding: 27px 20px;
+				color:white;
+				text-transform: uppercase;
+			}
 			
 				
 			&-drop {
@@ -46,7 +48,6 @@
 				padding: 22px 22px;
 				position:absolute;
 				background-color: $blue;
-				top: 72px;
 				display:none;
 				z-index: 11111;
 				left: 0;
@@ -65,7 +66,7 @@
 				}
 
 				.pages {
-					font-size: 14px;
+					font-size: 16px;
 					
 					@media(max-width:700px){
 						&:hover {
@@ -88,7 +89,7 @@
 			}
 			
 
-			&:hover {
+			&:hover{
 				background-color: $blue;
 			}
 			&:hover .header-item-drop{
@@ -97,8 +98,10 @@
 			
 			@media(max-width:700px){
 				position: static;
-				&:hover {
+				&-name:hover {
 					color: $blue;
+				}
+				&:hover {
 					background-color: $grey;
 				}
 			}

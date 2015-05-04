@@ -5,7 +5,7 @@
 				<div class="new-logo">
 					<img src="http://0.gravatar.com/avatar/2712e2b275690a66493bc3c27bac2ef6?s=70&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D70&r=G" alt="">
 				</div>
-				<div class="new-title">FULLY RESPONSIVE LAYOUT</div>
+				<div class="new-title"><div>FULLY RESPONSIVE LAYOUT</div></div>
 				<div class="new-data">
 					<div class="new-date">
 						<div class="date">
